@@ -47,7 +47,28 @@ pip install numpy pandas matplotlib scikit-learn
 5. **Follow the instructions in the notebook to run the code and see the results.**
 
 ## Dataset
-  The MNIST dataset is used in this project. It consists of 60,000 training and testing images of handwritten digits. Each image is a 28x28 grayscale image.
+  The MNIST dataset is used in this project. It consists of 60,000 training and testing images of handwritten digits. Each image is a 28x28 grayscale image.It is compressed into a `.zip` file (`mnist_dataset.zip`) to reduce file size. Before running the notebook, you need to manually extract the dataset.
+
+### Steps:
+### Steps to Extract the Dataset:
+1. Navigate to the `data/` directory:
+   ```bash
+   cd data
+   ```
+2. Extract the mnist_dataset.zip file:  
+   -On Windows: Right-click the file and select Extract All.  
+   -On macOS/Linux: Use the unzip command:
+   ```bash
+   unzip mnist_dataset.zip
+   ```
+3. After Extraction, Ensure the `mnist_dataset.zip` file is in the `data/` directory.
+4. Return to the project root directory:
+   ```bash
+   cd ..
+   ```
+5. Now you can run the notebook 
+
+If the dataset is missing, download it from [MNIST Dataset](https://drive.google.com/file/d/1lsK27vY-YyPM6t-Yp9ql3IsiRtbZ5f5g/view?usp=sharing) and place it in the `data/` directory.  
 
 ## Results
   The notebook includes detailed explanations and visualizations of the results obtained from both the custom Logistic Regression implementation and the scikit-learn implementation.
