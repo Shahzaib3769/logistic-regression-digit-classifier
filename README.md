@@ -47,7 +47,7 @@ pip install numpy pandas matplotlib scikit-learn
 5. **Follow the instructions in the notebook to run the code and see the results.**
 
 ## Dataset
-  The MNIST dataset is used in this project. It consists of 60,000 training images and 10,000 testing images of handwritten digits. Each image is a 28x28 grayscale image.
+  The MNIST dataset is used in this project. It consists of 60,000 training and testing images of handwritten digits. Each image is a 28x28 grayscale image.
 
 ## Results
   The notebook includes detailed explanations and visualizations of the results obtained from both the custom Logistic Regression implementation and the scikit-learn implementation.
